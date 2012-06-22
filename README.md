@@ -1,5 +1,3 @@
-# WORK IN PROGRESS
-
 # LiveScript (JS) wrapper for SocketStream 0.3
 
 Allows you to use [LiveScript](http://gkz.github.com/LiveScript) files (.ls) in your SocketStream project.
