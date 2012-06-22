@@ -1,5 +1,5 @@
 {
-  "name": "ss-LiveScript",
+  "name": "ss-livescript",
   "author": "Mads Flensted-Urech <mfu@coadu.com>",
   "description": "LiveScript wrapper for SocketStream 0.3",
   "version": "0.1.0",
