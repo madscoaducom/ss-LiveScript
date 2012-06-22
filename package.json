@@ -1,18 +1,18 @@
 {
-  "name": "ss-coffee",
-  "author": "Owen Barnes <owen@socketstream.org>",
-  "description": "CoffeeScript wrapper for SocketStream 0.3",
-  "version": "0.1.1",
+  "name": "ss-LiveScript",
+  "author": "Mads Flensted-Urech <mfu@coadu.com>",
+  "description": "LiveScript wrapper for SocketStream 0.3",
+  "version": "0.1.0",
   "main": "./lib/wrapper.js",
   "repository": {
-    "type" : "git",
-    "url": "https://github.com/socketstream/ss-coffee.git"
+    "type": "git",
+    "url": "https://github.com/madscoaducom/ss-LiveScript.git"
   },
   "engines": {
     "node": ">= 0.6.0"
   },
   "dependencies": {
-    "coffee-script": "1.2.x"
+    "LiveScript": "0.9.x"
   },
   "devDependencies": {}
 }
