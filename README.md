@@ -10,8 +10,11 @@ Add `ss-livescript` to your application's `package.json` file and then add this 
 ```javascript
 ss.client.formatters.add(require('ss-livescript'));
 ```
-
-Based on the [ss-coffee](https://github.com/socketstream/ss-coffee) wrapper by the core SocketStream team.
+NOTE: when you want to require client side modules written in LiveScript, remember to add the `.ls` extension.
+E.g. in entry.js:
+```javascript
+require('/app.ls')
+```
 
 ### prelude-ls
 
@@ -25,3 +28,6 @@ in your client then:
     # require prelude in your client code, here attached to window, but select your own target
     require \prelude . installPrelude window
     
+### Credits
+
+Based on the [ss-coffee](https://github.com/socketstream/ss-coffee) wrapper by the core SocketStream team.
