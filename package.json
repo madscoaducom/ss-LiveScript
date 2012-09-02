@@ -2,7 +2,7 @@
   "name": "ss-livescript",
   "author": "Mads Flensted-Urech <mfu@coadu.com>",
   "description": "LiveScript wrapper for SocketStream 0.3",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "main": "./lib/wrapper.js",
   "repository": {
     "type": "git",
